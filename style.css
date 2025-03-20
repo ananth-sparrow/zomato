@@ -330,3 +330,33 @@ footer {
 
 
 
+@media (max-width: 1020px) {
+    .hero-card, .localities-card, .collection-card {
+        flex-basis: 48%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-card, .localities-card, .collection-card {
+        flex-basis: 48%;
+    }
+    .top-footer, .footer-badges {
+        flex-direction: column;
+        align-items: center;
+    }
+    .search-box {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-card, .localities-card, .collection-card {
+        flex-basis: 100%;
+    }
+    .search-app input {
+        width: 100%;
+    }
+}
+
+
